@@ -1,0 +1,70 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF8224"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="크리스탈 로드"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"        android:layout_margin="10dp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/croad" />
+
+        <TextView        android:layout_margin="10dp"
+            
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="패턴아트 작가였던 이수정(크리스탈)은 세크네티 대륙의 인파르바 제국으로 15살로 역행하여 
+
+또다른 차원이동녀 베로니카와 함께 차기 황제의 반려 &apos;테프네트&apos;의 후보 &apos;르네트&apos;가 되었다.
+
+그리고 &apos;판&apos;에서 내려준 테프네트 후보가 가지는 이능 &apos;판의 방&apos;은 그녀가 살던 현대의 집이었다. 
+
+테프네트가 되기 위한 교육을 받으며 황궁에서 자란 그녀는 
+
+황태자를 사랑하다가 그가 자신이 아닌 베로니카를 사랑했다는 것을 알게 되었다.
+
+테프네트는 베로니카가 되었고, 그녀는 공작에게 버려지기 전, 수백명을 죽인 마녀로 누명을 뒤집어쓰고 22살에 산채로 화형을 당했다.
+
+기가막히게도, 그녀는 죽지 않았다. 눈을 뜨니 18살. 
+
+타고난 귀족이었던 베로니카를 동경했고, 그녀가 되고 싶어 자신이 가졌던 것을 버리고 &apos;베로니카 따라잡기&apos;를 했던 그녀는,
+
+다시 깨어난 시점에서, 그만두기로 했다.
+
+" />
+
+     <Button
+            android:layout_margin="10dp"
+            android:id="@+id/bbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="닫기" />
+    </LinearLayout>
+
+</ScrollView>

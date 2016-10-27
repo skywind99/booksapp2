@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF8224"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="사나운 새벽"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"        android:layout_margin="10dp"
+        
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/sana" />
+
+    <TextView
+        android:id="@+id/textView1"        android:layout_margin="10dp"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사나운 새벽(판타지) 7/완결
+
+윤석진 판타지 장편소설 제7권 완결편. 
+
+늙고 소심한 흑마도사에서 제국의 오만한 소드마스터 황태자로,
+
+또다시 이름없는 용병으로 드래곤과 마족들이 탐내는 힘을 가지고,
+
+그 힘 때문에 계속해서 어디에도 속하지 못한 채 세계를 방황했던 사내의 이야기가 펼쳐진다." />
+   <Button
+            android:layout_margin="10dp"
+            android:id="@+id/bbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="닫기" />
+</LinearLayout>

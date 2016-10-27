@@ -1,0 +1,69 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF8224"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="룬의 아이들"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"        android:layout_margin="10dp"
+            
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/roon" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"        android:layout_margin="10dp"
+            
+            android:text="전민희 판타지 장편소설『룬의 아이들-윈터리』제7권 새벽을 택하라 편. 
+
+세월의 돌로 널리 알려진 한국 장르문학의 대표적인 여류작가 전민희의 작품이다.
+
+「룬의 아이들」시리즈는 온라인게임과의 연계 프로젝트로 화제를 불러일으켰으며 
+
+국내뿐만 아니라 일본과 대만,중국 등에서도 큰 인기를 얻고 있다. 이 책은 새로운 표지를 입힌 개정판이다.
+
+
+이 소설은 공화국 트라바체스의 유력한 집안인 진네만가(家) 집안끼리의 전쟁 때문에 
+
+부모를 잃은 어린 소년 보리스의 이야기로 시작된다.
+
+유일하게 믿을 수 있는 사람이었던 형 예프넨마저 보리스를 지키기 위해 사망하고,
+
+보리스는 형의 유언에 따라 오로지 살아남기 위해 여행을 떠난다,
+
+가슴에는 대대로 내려오던 명검 &apos;윈터러&apos;를 품은 채…." />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/bbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="닫기" />
+    </LinearLayout>
+
+</ScrollView>

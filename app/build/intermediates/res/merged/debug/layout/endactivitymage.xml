@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF8224"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="골든메이지"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/golden" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"           android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:text="누구도 이루어내지 못했고, 누구도 가지 못했던 길. 
+마법 판타지의 위대한 역사가 시작된다! 
+
+세상 속에 홀로 내던져져 죽을 만큼 감당하기 어려운 삶의 연속. 
+하지만 살기 위해 버텨야 했다. 
+태풍처럼 몰아치는 고통. 
+그것은 외로운 삶에 살아 있음을 느끼게 하는 유일한 희열이다. 
+
+‘무엇을 잘못했기에 지금 이런 상황에 처해져야 하는 건가…… 
+나는 살고 싶다.’
+
+과거의 굴레를 벗어던지고 운명처럼 다시 태어난 한 남자.
+욕망에 가득 찬 세상에서 
+사랑하는 가족을 지키기 위해 자신의 모든 것을 내걸었다. 
+
+기다려라! 이제 내가 너희를 몰아칠 것이다.
+사랑하는 이들을 위해 세상을 향한 거대한 전쟁이 시작된다!
+" />
+         <Button
+        android:id="@+id/bbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="10dp"
+        android:text="닫기" />
+    </LinearLayout>
+
+</ScrollView>

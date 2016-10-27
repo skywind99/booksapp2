@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/page_select.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-xxhdpi/page_select.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/road.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-xxhdpi/road.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/page_not.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-xxhdpi/page_not.png"
+    }
+]

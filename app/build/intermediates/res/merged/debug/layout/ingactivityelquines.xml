@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+ >
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF8224"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="정령왕 엘퀴네스"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"     android:layout_margin="10dp"
+        android:layout_height="182dp"
+        android:src="@drawable/ell" />
+
+    <TextView
+        android:id="@+id/textView1"     android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="“내 이름은 강지훈, 올해로 17살인 대한민국 국적의 평범한 고등학생이다.”
+강지훈은 평범하기 짝이 없는 고등학생이었다. 우연히 당한 교통사고로 사망한 뒤, 명계에서 자신이 ‘인간으로 잘못 태어난 물의 정령왕 엘퀴네스’라는 사실을 알게 된다. 아크아돈의 자연을 다스리는 물의 정령왕으로 정령계에서 다시 태어나지만, 태어나는 순간부터 자연의 흐름을 읽고 그에 따른 대처 방법을 저절로 깨달아야 정상인데…….
+
+“물의 정령을 만들라니? 어떻게 하는 건데?”
+인간으로 살았던 기억 때문에 정령왕의 자각이 없는 상태였다. 다른 정령왕들에게 배워가며 정령왕으로서 자각해가는 지훈은 ‘엘’이라는 애칭을 지닌 물의 정령왕 엘퀴네스의 삶을 살아가기 시작한다. 동료인 불의 정령왕 이프리트를 위해 신계에 방문한 엘퀴네스는…….
+
+전대 물의 정령왕이었던 형벌의 신 엘뤼엔과 만난다!
+“다시 만나게 되면 선물을 주겠다고 했지.”
+“나, 난 그런 거 필요 없……!”
+“필요의 여부는 내가 결정한다. 네가 아니라.”
+엘뤼엔이 손을 움직이는 것을 보고 나는 반사적으로 방어 자세를 취했다. 또 신력이 날아올까 싶었던 것이다. 하지만 그 순간 이어진 건 격렬한 통증이 아닌, 머리를 가볍게 쓰다듬는 손길이었다. 그와 함께 믿을 수 없는 한마디가 귓가에 들려왔다.
+“너, 내 아들 해라.”" />
+<Button
+        android:id="@+id/bbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="10dp"
+        android:text="닫기" />
+</LinearLayout>
+    
+
+</ScrollView>

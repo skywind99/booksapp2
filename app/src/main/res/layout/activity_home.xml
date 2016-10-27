@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/naver_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/naver" />
+
+        <TextView
+            android:id="@+id/naver_best"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/naver_mark"
+            android:layout_toRightOf="@+id/naver_mark"
+            android:text="네이버 베스트셀러"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#a6a6a6" >
+    </TextView>
+
+    <ListView
+        android:id="@+id/customList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="snsm" >
+    </ListView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/road.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-mdpi/road.png"
+    }
+]

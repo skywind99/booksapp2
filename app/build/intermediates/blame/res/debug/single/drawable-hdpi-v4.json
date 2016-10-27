@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/image_border.xml",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/image_border.xml"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/page_not.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/page_not.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/page_select.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/page_select.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/naver.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/naver.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/joara.jpg",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/joara.jpg"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/mun.jpg",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/mun.jpg"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/end.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/end.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/splash.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/splash.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/da.jpg",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/da.jpg"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ijak.jpg",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/ijak.jpg"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/road.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/road.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ing.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/ing.png"
+    },
+    {
+        "merged": "/Users/lsh/Downloads/booksapp2/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/icon.png",
+        "source": "/Users/lsh/Downloads/booksapp2/app/src/main/res/drawable-hdpi/icon.png"
+    }
+]

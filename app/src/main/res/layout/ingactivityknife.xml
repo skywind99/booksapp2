@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF8224"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="비뢰도"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"     android:layout_margin="10dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:src="@drawable/knife" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"     android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="묵금과 비뢰의 향을 타고 무림에 나타난 &apos;비류연&apos;과 &apos;괴짜 사부&apos;. 마지막 순간까지 예측할 수 없는 절대 무공과 기행의 어드벤처. 
+
+진령과의 결혼을 위한 남궁상의 특급 훈련은 시작되고, 돈줄이 떨어진 노사부님이 결국 무림으로 비류연을 찾아 나선다." />
+<Button
+        android:id="@+id/bbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="10dp"
+        android:text="닫기" />
+</LinearLayout>

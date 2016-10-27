@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF8224"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="샤이닝 로드"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"           android:layout_margin="10dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/sroad" />
+
+        <TextView
+            android:id="@+id/textView1"           android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="게임-눈처럼 불어난 사채에 조폭들에게 몸을 저당 잡힌 석헌
+목숨을 부지할 길은 게임 ‘샤이닝로드’로 수익을 남기는 것뿐
+하지만 유일한 혈육인 동생의 자살 소식에 이어
+랭커라는 고급 인력임에도 불구, 자신의 목숨마저 빼앗기는데……
+
+눈을 뜬 석헌! 샤이닝로드의 오픈 전, 그날로 돌아오다!
+
+오픈도 안 한 게임을 완벽히 파악하고 있는 ‘왕년의 랭커’로서
+한발 앞서 종횡무진할 수 있는 절호의 기회!
+거칠 것 없는 자신감으로 무작정 발을 들이지만
+현실과 게임 모두 그가 알고 있던 기억에서 벗어나기 시작한다!
+
+인생 막장이 얻은 또 한 번의 기회!
+행복이란 지상 과제를 향한 한 남자의 비열한 플레이가 펼쳐진다!
+
+2010년을 자신 있게 끝맺을 로크의 히든카드!
+퓨전과 게임의 절묘한 만남! 『샤이닝로드』!" />
+
+        <Button
+            android:id="@+id/bbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="10dp"
+            android:text="닫기" />
+    </LinearLayout>
+
+</ScrollView>

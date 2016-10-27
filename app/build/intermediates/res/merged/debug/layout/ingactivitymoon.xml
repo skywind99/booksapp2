@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF8224"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="달빛조각사"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="222dp"
+        android:layout_gravity="center"        android:layout_margin="10dp"
+        android:src="@drawable/moon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:text="NPC에게 아부하여 밥을 얻어먹는 처세술의 대가!
+주야장천 수련에 몰두하는 억척의 지존!
+돈을 벌겠다는 집념으로 뭉친 주인공 위드에게 
+게임 속 세상은 모조리 돈으로 연결된다
+그런 그가 험난한 퀘스트를 수행한 대가로 얻은 것은
+전혀 돈 안 될 것 같은 ‘조각사’라는 직업이었으니…
+
+그러나 위드 사전에 좌절이란 없다!
+‘전설의 달빛 조각사’가 되어 떼돈을 벌기 위한 
+위드의 대장정이 시작된다!" />
+<Button
+        android:id="@+id/bbb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="10dp"
+        android:text="닫기" />
+</LinearLayout>

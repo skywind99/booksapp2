@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#FF8224"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="금안의 마법사"
+                android:textColor="#ffffff"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"        android:layout_margin="10dp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/eye" />
+
+        <TextView
+            android:id="@+id/textView1"        android:layout_margin="10dp"
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="릭샤는 눈썹 하나 꿈쩍하지 않고 일기를 읽어 내려갔다.
+
+이제 막 8살이 되었다는 어린애가 암울하기 짝이 없는 과거사를 아무런 감흥 없이 설명하고 있었다.
+
+할 말이 없어져 멍하니 입을 벌리고 있던 레가트는 이내 시커먼 불신이 뭉클뭉클 밀려옴을 느꼈다.
+
+릭샤가 하는 행동을 보면 무리도 아닌 추측이다. 
+
+자신에게 악의를 가진 자들이 여럿 있지 않았던가.
+
+어쩌면 그들이 어린아이에게 세뇌를 걸어 못된 장난질을 치고 있을 수도 있다. 
+
+그게 아니라면 폴리모프 마법으로 모습을 바꾸고서는 시침 뚝 떼고 이런 소리를 하고 있는지도 모른다.
+
+최정연 판타지 장편 소설 &lt;금안의 마법사> 제5(완결편)권." />
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/bbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="닫기" />
+    </LinearLayout>
+
+</ScrollView>

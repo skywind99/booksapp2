@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lsh/Downloads/booksapp2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/lsh/Downloads/booksapp2/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.2.1_3773255497faec9c19bdb7b4d1d304592d8bf669.jar" />
+    </item>
+    <item
+        jar="/Users/lsh/Downloads/booksapp2/app/libs/jsoup-1.7.2.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="872693211fd68d1c4e116cf90021603207725e19">
+        <dex dex="/Users/lsh/Downloads/booksapp2/app/build/intermediates/pre-dexed/debug/jsoup-1.7.2_95de3eeb07769d99eb9af379266ce90810314788.jar" />
+    </item>
+    <item
+        jar="/Users/lsh/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/lsh/Downloads/booksapp2/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1_4048f50317436e8b494f97ac3cd84c6f90edaa5f.jar" />
+    </item>
+    <item
+        jar="/Users/lsh/Downloads/booksapp2/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/lsh/Downloads/booksapp2/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1_c5b21ead4db86c756572f89ae2c13e9610713168.jar" />
+    </item>
+    <item
+        jar="/Users/lsh/Downloads/booksapp2/app/libs/glide-3.6.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/lsh/Downloads/booksapp2/app/build/intermediates/pre-dexed/debug/glide-3.6.1_288aa0e04c1afbf0855dcd93dfc5e749fb28a043.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#FF8224"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="눈물을 마시는 새"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"        android:layout_margin="10dp"
+        
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bird" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"        android:layout_margin="10dp"
+        
+        android:layout_height="wrap_content"
+        android:text="눈물을 마시는 새(판타지)4/완결
+
+드래곤 라자 이영도의 최신작. 나가, 레콘, 도깨비, 인간의 네 종족으로 구성된 세계는 나가에 의해 반으로 나뉘어진다.
+
+그러나 세계의 반을 차지하고 있던 나가들의 사회에 일단의 소요가 발생하고, 성인 의식 도중에 살인 사건이 발생한다.
+
+결국 누명을 쓴 도망자와 그 뒤를 쫓는 추적자의 숨막히는 추격전이 펼쳐지고, 인간과 레콘,
+
+그리고 도깨비로 구성된 구출대가 그들의 추격전에 난입하며 세계의 위기에 관한 음모가 서서히 밝혀진다.  
+ " />
+    <Button
+            android:layout_margin="10dp"
+            android:id="@+id/bbb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="닫기" />
+</LinearLayout>
+
+  
+
+</ScrollView>
